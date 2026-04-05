@@ -10,11 +10,16 @@ Autonomous AI agent that processes invoices and makes approval decisions using m
 - Provides full traceability of every decision step
 
 ## How it works
-Invoice submitted
-Node 1: Budget check ← verifies available budget
-Node 2: Approval level ← applies business rules
-Node 3: Risk analysis ← LLM evaluates risk
-Node 4: Final decision ← LLM generates recommendation
+Invoice submitted  
+↓  
+Node 1: Budget check ← verifies available budget  
+↓  
+Node 2: Approval level ← applies business rules  
+↓  
+Node 3: Risk analysis ← LLM evaluates risk  
+↓  
+Node 4: Final decision ← LLM generates recommendation  
+↓  
 Decision with full audit trail
 
 ## Architecture
